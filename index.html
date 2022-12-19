@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>410WEB</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo" href="#">
+            <img class="header__logo-img" src="img/logo.svg" alt="Logo">
+        </a>
+        <div class="header__content">
+            <div class="header__content-contact">
+                <p class="header__content-mail">410webmanager@gmail.com</p>
+                <p class="header__content-tel">+7 (919) 448-17-23</p>
+            </div>
+            <div class="header__content-popup">
+                <a class="header__content-popup-link" href="#popup-consul">Оставить заявку<img class="popup-arrow" src="img/popup-arrow.svg" alt="arrow"></a>
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                <ul class="menu__box">
+                    <div class="menu__left">
+                        <div class="menu__items">
+                            <button class="btn-reset accordionMob">
+                                <div class="menu__item">
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-text">
+                                            <h1 class="menu__item-title">Сайты<span class="blue-text">.</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="menu__item-panel">
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Одностраничный сайт</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Интернет-магазин</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Корпоративный сайт</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                            </div>    
+                        </div>    
+                        <div class="menu__items">
+                            <button class="btn-reset accordionMob">
+                                <div class="menu__item">
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-text">
+                                            <h1 class="menu__item-title">Копирайтинг<span class="blue-text">.</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="menu__item-panel">
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Ведение ВК, Instagram</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Написание статей</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Тексты для площадок и сайтов</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Продающие автоворонки</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                            </div>    
+                        </div>     
+                    </div>
+                    <div class="menu__right">
+                        <div class="menu__items">
+                            <button class="btn-reset accordionMob">
+                                <div class="menu__item">
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-text">
+                                            <h1 class="menu__item-title">Маркетинг<span class="blue-text">.</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="menu__item-panel">
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Таргетированная реклама</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Контекстная реклама</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">SEO-продвижение сайт</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                            </div>       
+                        </div>  
+                        <div class="menu__items">
+                            <button class="btn-reset accordionMob">
+                                <div class="menu__item">
+                                    <div class="menu__item-content">
+                                        <div class="menu__item-text">
+                                            <h1 class="menu__item-title">Консалтинг<span class="blue-text">.</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            <div class="menu__item-panel">
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Подключение оценки звонков/диалогов</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Оцифровка продаж в графике и статистике</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Внедрение CRM-системы</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                                <div class="menu__item-panel-item">
+                                    <p class="menu__item-panel-text">Разработка скриптов продаж</p>
+                                    <img class="menu__item-panel-img" src="img/arrow-white.svg">
+                                </div>
+                            </div>  
+                        </div> 
+                    </div>      
+                    <div class="menu__social">
+                        <div class="menu__social-img">
+                            <img src="img/vk.svg">
+                        </div>  
+                        <div class="menu__social-img">
+                            <img src="img/telegram.svg">
+                        </div>
+                    </div>  
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <img class="hero-bg-mob" src="img/hero-bg-mob.png" alt="bg">
+            <div class="container">
+                <img class="hero-bg" src="img/hero-bg.png" alt="bg">
+                <h1 class="hero-title">Делаем продающие сайты <span class="blue-text">с конверсией до 46%</span></h1>
+                <div class="hero__text-items">
+                    <div class="hero__text-item">
+                        <div class="hero__text-item-stick">
+                            <span class="hero__text-item-stick-line"></span>
+                        </div>
+                        <p class="hero__text-item-descr">Уникальный дизайн и адаптивная верстка</p>
+                    </div>
+                    <div class="hero__text-item">
+                        <div class="hero__text-item-stick">
+                            <span class="hero__text-item-stick-line"></span>
+                        </div>
+                        <p class="hero__text-item-descr">Средний срок разработки - 20 дней</p>
+                    </div>
+                    <div class="hero__text-item">
+                        <div class="hero__text-item-stick">
+                            <span class="hero__text-item-stick-line"></span>
+                        </div>
+                        <p class="hero__text-item-descr">Высокая окупаемость при использовании как посадочной страницы
+                        </p>
+                    </div>
+                </div>
+                <a href="#popup-consul">
+                    <button class="btn hero-btn btn-reset">Бесплатная консультация 
+                        <img class="btn-arrow" src="img/btn-arrow.svg" alt="arrow">
+                    </button>  
+                </a>
+            </div>
+        </section>
+        <section class="feature">
+            <img class="feature-bg" src="img/feature-bg.png" alt="background">
+            <div class="container">
+                <h1 class="feature-title">Правильно разработанный лендинг способен увеличить ваши продажи <span
+                        class="blue-text">в 2-3 раза</span> за ближайшие <span class="blue-text">3 месяца</span></h1>
+                <div class="columns feature__items feature__items-up">
+
+                    <div class="column item-full">
+                        <div class="feature__item feature__item-full">
+                            <h3 class="feature__item-title">Закройте вопрос привлечения клиентов на ближайшие 2 года
+                            </h3>
+                            <p class="feature__item-descr">Имиджевые и информативные сайты с уникальным дизайном для
+                                брендов
+                                и компаний </p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="columns feature__items feature__items-down">
+                        <div class="column">
+                            <div class="feature__item feature__item-half-one">
+                                <h3 class="feature__item-title">Лендинг - универсальная посадочная страница</h3>
+                                <p class="feature__item-descr">Решение, которое подходит под любые цели, связки и источники
+                                    трафика</p>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="feature__item feature__item-half-two">
+                                <h3 class="feature__item-title">Стабильный источник продвижения</h3>
+                                <p class="feature__item-descr">Платформа, позволяющая выстроить автоматическую связь между
+                                    товаром и клиентом </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+            </div>
+        </section>
+        <section class="facts">
+            <div class="container">
+                <div class="columns">
+                    <div class="column facts__text">
+                        <h1 class="facts__text-title">Более <span class="blue-text">90%</span> клиентов <span
+                                class="blue-text">довольны</span> нашей работой</h1>
+                        <p class="facts__text-descr">Ключевые факторы эффективной работы и взаимодействия с нашими
+                            клиентами
+                        </p>
+                    </div>
+                    <div class="column facts__items">
+                        <div class="facts__item">
+                            <span class="blue-text facts__item-num">01</span>
+                            <h3 class="facts__item-descr">Полностью обоснованная смета</h3>
+                        </div>
+                        <div class="facts__item">
+                            <span class="blue-text facts__item-num">02</span>
+                            <h3 class="facts__item-descr">Фиксированные сроки в договоре</h3>
+                        </div>
+                        <div class="facts__item">
+                            <span class="blue-text facts__item-num">03</span>
+                            <h3 class="facts__item-descr">Полная поддержка и инструкция по работе</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="factors">
+            <div class="container">
+                <div class="factors__title">
+                    <img class="factors__title-num" src="img/2.jpg" alt="2">
+                    <h1 class="factors__title-title"><span class="blue-text">ключевых фактора</span>, которые делают
+                        нашу разработку уникальной и обеспечивают результат:</h1>
+                </div>
+                <div class="factors__items">
+                    <div class="factors__item">
+                        <div class="factors__item-left">
+                            <h1 class="factors__item-title">Анализ вашей аудитории</h1>
+                        </div>
+                        <div class="factors__item-right">
+                            <div class="factors__item-text">
+                                <p class="factors__item-descr">Только ориентируясь на потребности и боли тех, кто у вас
+                                    покупает, мы можем составить действительно продающую структуру сайта, который будет
+                                    давать высокие конверсии</p>
+                            </div>
+                            <div class="factors__item-button">
+                                <button class="factors-btn btn-reset">Получить пример анализа
+                                    <img class="btn-arrow" src="img/btn-arrow.svg" alt="arrow">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="factors__item">
+                        <div class="factors__item-left">
+                            <h1 class="factors__item-title">Уникальный дизайн</h1>
+                        </div>
+                        <div class="factors__item-right">
+                            <div class="factors__item-text">
+                                <p class="factors__item-descr">Помимо того, что написано на сайте, клиенту всегда важно,
+                                    как это выглядит. Уникальный дизайн, который нравится клиенту - залог успешных
+                                    продаж</p>
+                            </div>
+                            <div class="factors__item-button">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stage">
+            <div class="container">
+                <div class="stage__text">
+                    <h1 class="stage__text-title">Этапы разработки</h1>
+                    <p class="stage__text-descr">Над каждым этапом разработки работает отдельный специалист, что
+                        обеспечивает максимальную эффективность в работе</p>
+                </div>
+                <div class="stage__items-wrapper">
+                    <div class="columns stage__items-left">
+                        <div class="column">
+                            <div class="stage__item stage__item-one">
+
+                                <span class="blue-text stage__item-num">01</span>
+                                <h3 class="stage__item-descr">Брифинг клиента</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-three">
+                                <span class="blue-text stage__item-num">03</span>
+                                <h3 class="stage__item-descr">Отрисовка дизайна</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-five">
+                                <span class="blue-text stage__item-num">05</span>
+                                <h3 class="stage__item-descr">Презентация и доработки</h3>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="columns stage__items-right">
+                        <div class="column">
+                            <div class="stage__item stage__item-two">
+                                <span class="blue-text stage__item-num">02</span>
+                                <h3 class="stage__item-descr">Разработка структуры сайта</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-four">
+                                <span class="blue-text stage__item-num">04</span>
+                                <h3 class="stage__item-descr">Верстка и интеграции</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <a href="#popup-zayvka">    
+                                <div class="stage__item stage__item-six">
+                                    <div class="stage__item-six-up">    
+                                        <span class="blue-text stage__item-num">06</span>
+                                        <img class="stage__item-six-arrow" src="img/arrow-white.svg">
+                                    </div>
+                                    <h3 class="stage__item-descr">Запуск проекта</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="stage__items-wrapper-mob">
+                    <div class="columns stage__items-left">
+                        <div class="column">
+                            <div class="stage__item stage__item-one">
+                                <span class="blue-text stage__item-num">01</span>
+                                <h3 class="stage__item-descr">Брифинг клиента</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-three">
+                                <span class="blue-text stage__item-num">02</span>
+                                <h3 class="stage__item-descr">Разработка структуры сайта</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-five">
+                                <span class="blue-text stage__item-num">03</span>
+                                <h3 class="stage__item-descr">Отрисовка дизайна</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns stage__items-right">
+                        <div class="column">
+                            <div class="stage__item stage__item-two">
+                                <span class="blue-text stage__item-num">04</span>
+                                <h3 class="stage__item-descr">Верстка и интеграции</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-four">
+                                <span class="blue-text stage__item-num">05</span>
+                                <h3 class="stage__item-descr">Презентация и доработки</h3>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="stage__item stage__item-six">
+                                <span class="blue-text stage__item-num">06</span>
+                                <h3 class="stage__item-descr">Запуск проекта</h3>
+                                <button class="btn stage__item-btn btn-reset">Отправить заявку<img class="btn-arrow" src="img/arrow-white.svg"></button>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <section class="project">
+            <div class="container">
+                <form class="project__form" action="" method="post">
+                    <div class="project__form-left">
+                        <h3 class="project__form-title">Оставьте заявку</h3>
+                        <p class="project__form-descrMob">и наш менеджер перезвонит вам через 15 минут</p>
+                        <input class="project__form-input" type="text" name="name" placeholder="Ваше имя">
+                        <input class="project__form-input" type="text" name="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="project__form-right">
+                        <p class="project__form-descr">и наш менеджер перезвонит вам через 15 минут</p>
+                        <input class="project__form-btn" type="submit">
+                        <p class="project__form-span">Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой
+                            конфиденциальности</p>
+                    </div>
+                </form>
+                <h1 class="project-title">Наши проекты</h1>
+                <div class="project__items">
+                    <div class="project__item">
+                        <div class="project__item-up">
+                            <p class="project__item-num">1/3</p>
+                            <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
+                        </div>
+                        <img class="project__item-tel project__item-tel-one" src="img/project-tel.png">
+                        <img class="project__item-nout project__item-nout-one" src="img/project-nout.png">
+                        <img class="project__item-zvezda-left" src="img/project-zvezda.png">
+                        <img class="project__item-zvezda-right" src="img/project-zvezda2.png">
+                        <div class="project__item-down">
+                            <h2 class="project__item-title">Лендинг для онлайн-курса компании Inside production</h2>
+                            <div class="project__item-inside">
+                                <div class="project__item-inside-text">
+                                    <p class="project__item-inside-descr">insd.online</p>
+                                </div>
+                                <div class="project__item-inside-button">
+                                    <button class="project__item-inside-button-left btn-reset">Лендинг</button>
+                                    <button class="project__item-inside-button-right btn-reset">UX/UI</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-up">
+                            <p class="project__item-num">2/3</p>
+                            <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
+                        </div>
+                        <img class="project__item-tel" src="img/project-tel2.png">
+                        <img class="project__item-nout" src="img/project-nout2.png">
+                        <div class="project__item-down">
+                            <h2 class="project__item-title">Лендинг для гостиницы Энергетик</h2>
+                            <div class="project__item-inside">
+                                <div class="project__item-inside-text">
+                                    <p class="project__item-inside-descr">отельэнергетик.рф</p>
+                                </div>
+                                <div class="project__item-inside-button">
+                                    <button class="project__item-inside-button-left btn-reset">Лендинг</button>
+                                    <button class="project__item-inside-button-right btn-reset">UX/UI</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__item">
+                        <div class="project__item-up">
+                            <p class="project__item-num">3/3</p>
+                            <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
+                        </div>
+                        <img class="project__item-tel" src="img/project-tel3.png">
+                        <img class="project__item-nout" src="img/project-nout3.png">
+                        <div class="project__item-down">
+                            <h2 class="project__item-title">Лендинг для крипто-проекта OASIS</h2>
+                            <div class="project__item-inside">
+                                <div class="project__item-inside-text">
+                                    <p class="project__item-inside-descr">oasisxmirage.com</p>
+                                </div>
+                                <div class="project__item-inside-button">
+                                    <button class="project__item-inside-button-left btn-reset">Лендинг</button>
+                                    <button class="project__item-inside-button-right btn-reset">UX/UI</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tarif">
+            <div class="container">
+                <h1 class="tarif-title">Выберите подходящее для вас решение</h1>
+                <div class="tarif__items">
+                    <div class="tarif__item tarif__item-u">
+                        <div class="tarif__item-platinum">
+                            <img class="tarif__item-platinum-img" src="img/tarif-platinum.png" alt="Donut">
+                            <div class="tarif__item-up">
+                                <h2 class="tarif__item-up-title">Платинум</h2>
+                                <p class="tarif__item-up-descr">Полноценный лендинг "под ключ", готовый принимать
+                                    продажи</p>
+                                <svg class="tarif__item-up-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 17L17 7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7 7H17V17" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    
+                            </div>
+                            
+                            <div class="tarif__item__included-text">
+                                <div class="tarif__item__included-left">
+                                    <div class="tarif__item__included-l">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Уникальный дизайн</p>
+                                        </div>
+                                    </div>
+                                    <div class="tarif__item__included-l">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Тексты от копирайтера</p>
+                                        </div>
+                                    </div>
+                                    <div class="tarif__item__included-l">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Интеграция с почтой, crm и
+                                                мессенджерами</p>
+                                        </div>
+                                    </div>
+                                    <div class="tarif__item__included-l">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Встроенные системы аналитики</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tarif__item__included-right">
+                                    <div class="tarif__item__included-r">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Сервисы для увеличения конверсии</p>
+                                        </div>
+                                    </div>
+                                    <div class="tarif__item__included-r">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Поддержка и доработка в течение
+                                                месяца</p>
+                                        </div>
+                                    </div>
+                                    <div class="tarif__item__included-r">
+                                        <div class="tarif__item__included-item">
+                                            <span class="tarif__item__included-line"></span>
+                                            <p class="tarif__item__included-descr">Разработка от ведущего маркетолога и
+                                                программиста</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tarif__item-price">
+                                <span>от 78.000 ₽</span>
+                            </div>
+                            <div class="tarif__item-button">
+                                <button class="tarif__item-btnMob btn-reset">Оставить заявку<img src="img/arrow-orange.svg" alt="Arrow"></button>
+                            </div>
+                        </div>
+                        <div class="tarif__item-text">
+                            <div class="tarif__item-slider" data-duplicated="true" data-direction="right">
+                                <div class="tarif__item-text-l">
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                </div>
+                                <div class="tarif__item-text-l">
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                </div>
+                                <div class="tarif__item-text-l">
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                </div>
+                                <div class="tarif__item-text-l">
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                </div>
+                                <div class="tarif__item-text-l">
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                    <a class="tarif__item-text-link" href="#">Оставить заявку<img class="tarif__item-text-arrow" src="img/arrow-orange.svg"></a>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                    <div class="tarif__item-down">
+                        <div class="tarif__item">
+                            <div class="tarif__item__business">
+                                <div class="tarif__item__business-up">
+                                    <div class="tarif__item__business-up-text">
+                                        <h2 class="tarif__item__business-up-title">бизнес</h2>
+                                        <p class="tarif__item__business-up-descr">Продвинутое решение с индивидуальным дизайном</p>
+                                    </div>
+                                    <img class="tarif__item__business-up-arrow" src="img/arrow-white.svg" alt="arrow">
+                                </div>
+                                <div class="tarif__item__business__included-text">
+                                    <div class="tarif__item__business__included-left">
+                                        <div class="tarif__item__business__included-l">
+                                            <div class="tarif__item__business__included-item">
+                                                <span class="tarif__item__business__included-line"></span>
+                                                <p class="tarif__item__business__included-descr">Уникальный дизайн</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__business__included-l">
+                                            <div class="tarif__item__business__included-item">
+                                                <span class="tarif__item__business__included-line"></span>
+                                                <p class="tarif__item__business__included-descr">Интеграция с почтой, crm и мессенджерами</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__business__included-l">
+                                            <div class="tarif__item__business__included-item">
+                                                <span class="tarif__item__business__included-line"></span>
+                                                <p class="tarif__item__business__included-descr">Сервисы для увеличения конверсии</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__business__included-l">
+                                            <div class="tarif__item__business__included-item">
+                                                <span class="tarif__item__business__included-line"></span>
+                                                <p class="tarif__item__business__included-descr">Тексты от копирайтера</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__business__included-l">
+                                            <div class="tarif__item__business__included-item">
+                                                <span class="tarif__item__business__included-line"></span>
+                                                <p class="tarif__item__business__included-descr">Встроенные системы аналитики</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tarif__item__business-price">
+                                    <span>от 60.000 ₽</span>
+                                </div>
+                                <div class="tarif__item-button-down">
+                                    <button class="tarif__item-down-btnMob btn-reset">Оставить заявку<img src="img/arrow-white.svg" alt="Arrow"></button>
+                                </div>
+                                <div class="tarif__item__business__text">
+                                    <div class="tarif__item__business-slider" data-duplicated="true" data-direction="right">
+                                        <div class="tarif__item__business__text-l">
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__business__text-l">
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__business__text-l">
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__business__text-l">
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__business__text-l">
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__business__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                    </div>                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarif__item">
+                            <div class="tarif__item__start">
+                                <div class="tarif__item__start-up">
+                                    <div class="tarif__item__start-up-text">
+                                        <h2 class="tarif__item__start-up-title">Старт</h2>
+                                        <p class="tarif__item__start-up-descr">Простое решение с типовым дизайном для небольших бюджетов</p>
+                                    </div>
+                                    <img class="tarif__item__start-up-arrow" src="img/arrow-white.svg" alt="arrow">
+                                </div>
+                                <div class="tarif__item__start__included-text">
+                                    <div class="tarif__item__start__included-left">
+                                        <div class="tarif__item__start__included-l">
+                                            <div class="tarif__item__start__included-item">
+                                                <span class="tarif__item__start__included-line"></span>
+                                                <p class="tarif__item__start__included-descr">Типовой дизайн</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__start__included-l">
+                                            <div class="tarif__item__start__included-item">
+                                                <span class="tarif__item__start__included-line"></span>
+                                                <p class="tarif__item__start__included-descr">Универсальные тексты</p>
+                                            </div>
+                                        </div>
+                                        <div class="tarif__item__start__included-l">
+                                            <div class="tarif__item__start__included-item">
+                                                <span class="tarif__item__start__included-line"></span>
+                                                <p class="tarif__item__start__included-descr">Интеграция с почтой</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tarif__item__start-price">
+                                    <span>от 39.000 ₽</span>
+                                </div>
+                                <div class="tarif__item-button-down">
+                                    <button class="tarif__item-down-btnMob btn-reset">Оставить заявку<img src="img/arrow-white.svg" alt="Arrow"></button>
+                                </div>
+                                <div class="tarif__item__start__text">
+                                    <div class="tarif__item__start-slider" data-duplicated="true" data-direction="right">
+                                        <div class="tarif__item__start__text-l">
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__start__text-l">
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__start__text-l">
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__start__text-l">
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                        <div class="tarif__item__start__text-l">
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                            <a class="tarif__item__start__text-link" href="#">Оставить заявку<img src="img/arrow-white.svg"></a>
+                                        </div>
+                                    </div>                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="manager">
+            <div class="container">
+                <img class="manager-bg" src="img/manager-bg.png" alt="bg">
+                <h1 class="manager-title"><span class="blue-text">После старта работы</span> мы закрепим за вами персонального менеджера</h1>
+                <div class="manager__text">
+                    <img class="manager__text-img" src="img/quotes.svg" alt="quotes">
+                    <p class="manager__text-descr">Меня зовут Егор, я <span class="blue-text">гарантирую</span> вам постоянную коммуникацию в период
+                        реализации проекта, <span class="blue-text">еженедельную отчетность</span> и <span class="blue-text">учет всех ваших интересов</span> и пожеланий</p>
+                </div>
+                <div class="manager__button">
+                    <img class="egor-mob" src="img/Egor.png">
+                    <div class="manager__button-left">
+                        <a href="#popup-consul">
+                        <button class="btn manager__button-btn btn-reset">Получить консультацию <img class="btn-arrow"
+                                src="img/btn-arrow.svg" alt="arrow">
+                        </button>
+                        </a>
+                    </div>
+                    <div class="manager__button-right">
+                        <button class="btn manager__button-egor btn-reset">
+                            <h2 class="manager__button-egor-title">Егор Ильинский</h2>
+                            <p class="manager__button-egor-descr">Персональный менеджер</p>
+                        </button>
+                    </div>
+                </div>
+                <img class="egor" src="img/Egor.png">
+            </div>
+        </section>
+        <section class="calmness">
+            <div class="container">
+                <h1 class="calmness-title">Вы будете спокойны за <span class="blue-text">каждый рубль</span></h1>
+                <div class="calmness__wrapper">
+                    <div class="calmness__left">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="calmness__left-item">
+                                    <img class="calmness__left-item-img" src="img/calmness1.png">
+                                    <div class="calmness__left-item-text">
+                                        <h3 class="calmness__left-item-text-title"><span class="blue-text">Регулярные отчеты</span> раз в неделю</h3>
+                                        <p class="calmness__left-item-text-descr">по срокам, процессам, реализованным этапам</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="calmness__left-item">
+                                    <img class="calmness__left-item-img" src="img/calmness2.png">
+                                    <div class="calmness__left-item-text">
+                                        <h3 class="calmness__left-item-text-title">Все зафиксировано в <span class="blue-text">договоре</span></h3>
+                                        <p class="calmness__left-item-text-descr">Работаем официально с оплатой по счету. 
+                                            В договоре прописываем каждый этап, сроки и результат</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calmness__right">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="calmness__right-item">
+                                    <img class="calmness__right-item-img" src="img/calmness3.png">
+                                    <div class="calmness__right-item-text">
+                                        <h3 class="calmness__right-item-text-title">Платите по <span class="blue-text">удобному графику</span></h3>
+                                        <p class="calmness__right-item-text-descr">Зачастую мы разделяем сумму на несколько выплат по ходу работ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calmness__wrapperMob">
+                    <div class="columns">
+                        <div class="column">
+                            <div class="calmness__itemMob">
+                                <div class="calmness__itemMob-text">
+                                    <h3 class="calmness__itemMob-text-title"><span class="blue-text">Регулярные отчеты</span> раз в неделю</h3>
+                                    <p class="calmness__itemMob-text-descr">по срокам, процессам, реализованным этапам</p>
+                                </div>
+                                <img class="calmness__itemMob-img" src="img/calmness-mob1.png">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="calmness__itemMob">
+                                <div class="calmness__itemMob-text">
+                                    <h3 class="calmness__itemMob-text-title">Все зафиксировано в <span class="blue-text">договоре</span></h3>
+                                    <p class="calmness__itemMob-text-descr">Работаем официально с оплатой по счету. В договоре прописываем каждый этап, сроки и результат</p>
+                                </div>
+                                <img class="calmness__itemMob-img" src="img/calmness-mob2.png">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="calmness__itemMob">
+                                <div class="calmness__itemMob-text">
+                                    <h3 class="calmness__itemMob-text-title">Платите по <span class="blue-text">удобному графику</span></h3>
+                                    <p class="calmness__itemMob-text-descr">Зачастую мы разделяем сумму на несколько выплат по ходу работ</p>
+                                </div>
+                                <img class="calmness__itemMob-img" src="img/calmness-mob3.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="audit">
+            <div class="container">
+                <h1 class="audit-title">Бесплатный аудит вашего сайта</h1>
+                <img class="audit-bgMob" src="img/audit-bg.png" alt="bg">
+                <form class="audit__form" action="" method="post">
+                    <div class="audit__form-left">
+                        <div class="audit__form-input">
+                            <input class="input audit__form-input-name" type="text" name="name" placeholder="Имя">
+                            <input class="input audit__form-input-tel" type="text" name="tel" placeholder="Телефон">
+                            <input class="input audit__form-input-mail" type="text" name="mail" placeholder="Электронная почта">
+                            <input class="input audit__form-input-site" type="text" name="site" placeholder="Сайт компании">
+
+                        </div>
+                        <button class="btn audit__form-btn">Получить бесплатный аудит
+                            <img class="btn-arrow" src="img/btn-arrow.svg" alt="arrow">
+                        </button>
+                        <p class="audit__form-span">Нажимая кнопку “Получить бесплатный аудит”, вы соглашаетесь с
+                            Политикой конфиденциальности</p>
+                    </div>
+                </form>
+            </div>
+            <img class="audit-bg-small" src="img/audit.png" alt="bg">
+            <img class="audit-bg" src="img/audit-bg.png" alt="bg">
+        </section>
+        <section class="prototype">
+            <div class="container">
+                <h3 class="prototype-title-small">Не готовы сразу заказать <span class="blue-text">полную разработку</span> сайта?</h3>
+                <h1 class="prototype-title-big">Начните с разработки <span class="blue-text">прототипа!</span></h1>
+                <div class="prototype__btn-itemsMob">
+                    <div class="prototype__btn-itemMob">
+                        <p class="prototype__btn-itemMob-descr">Сроки разработки - 7 дней</p>
+                        <p class="prototype__btn-itemMob-descr">Гарантия лучшей цены на доработку</p>
+                        <p class="prototype__btn-itemMob-descr">Разработка до 3 вариантов прототипа</p>
+                    </div>
+                </div>
+                <div class="prototype__text__items">
+                    <div class="prototype__text__item">
+                        <span class="prototype__text-line"></span>
+                        <p class="prototype__text-descr">Стоимость разработки прототипа в среднем в 3 раза ниже
+                            стоимости полной разработки</p>
+                    </div>
+                    <div class="prototype__text__item">
+                        <span class="prototype__text-line"></span>
+                        <p class="prototype__text-descr">На этапе прототипа у вас уже будет полная структура сайта и
+                            внедрены продающие тексты</p>
+                    </div>
+                    <div class="prototype__text__item">
+                        <span class="prototype__text-line"></span>
+                        <p class="prototype__text-descr">Имея готовый прототип, вы можете сравнить цены на дизайн и
+                            верстку и выбрать подходящего подрядчика</p>
+                    </div>
+                </div>
+                <div class="prototype__btn">
+                    <div class="prototype__btn-left">
+                        <a href="#popup-zayvka">
+                            <button class="btn prototype__btn-one btn-reset">Оставить заявку<img class="btn-arrow" src="img/arrow-white.svg" alt="arrow"></button>
+                        </a>
+                        <button class="prototype__btn-two btn-reset">Получить пример анализа<img class="btn-arrow" src="img/btn-arrow.svg" alt="arrow"></button>
+                    </div> 
+                    <div class="prototype__btn-item">
+                        <p class="prototype__btn-item-descr">Сроки разработки - 7 дней</p>
+                        <p class="prototype__btn-item-descr">Гарантия лучшей цены на доработку</p>
+                        <p class="prototype__btn-item-descr">Разработка до 3 вариантов прототипа</p>
+                    </div>
+                </div>
+            </div>
+            <img class="prototype-bgone" src="img/prototype1.png" alt="Nootbook">
+            <img class="prototype-bgtwo" src="img/protorype2.png" alt="bg">
+            <img class="prototype-bgone-mob" src="img/prototype-mob.png" alt="Nootbook">
+        </section>
+        <section class="clients">
+            <div class="container">
+                <div class="clients__text">
+                    <h1 class="clients__text-title">Наши клиенты</h1>
+                    <p class="clients__text-descr">Мы открыты к работе как с крупным бизнесом, так и со стартапами</p>
+                </div>
+                <div class="clients__items">
+                    <div class="clients__one clients__group">
+                        <div class="column-h50">
+                            <div class="clients__item clients__item-megafon">
+                                <img class="clients__item-img" src="img/megafon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="column-h50">
+                            <div class="clients__item clients__item-zelenski">
+                                <img class="clients__item-img" src="img/zelenski.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="clients__two clients__group">
+                        <div class="column-h50">
+                            <div class="clients__item clients__item-vektor">
+                                <img class="clients__item-img" src="img/vektor.png" alt="">
+                            </div>
+                        </div>
+                        <div class="column-h50">
+                            <div class="clients__item clients__item-forpost">
+                                <img class="clients__item-img" src="img/forpost.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients__three clients__group">
+                        <div class="column-h100">
+                            <div class="clients__item clients__item-pfp">
+                                <img class="clients__item-img" src="img/pfp.png" alt="">
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="clients__free-five clients__group">
+                        
+                            <div class="clients__free">
+                                <div class="column-h100">
+                                    <div class="clients__item clients__item-zadel">
+                                        <img class="clients__item-img" src="img/zadel.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="column-h100">
+                                    <div class="clients__item clients__item-promoil">
+                                        <img class="clients__item-img" src="img/promoil.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clients__five">
+                                <div class="column-h100">
+                                    <div class="clients__item clients__item-samokat">
+                                        <img class="clients__item-img" src="img/samokat.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+
+
+                    <!--
+                    <div class="clients__free-five clients__group">
+                        <div class="clients__free">
+                            <div class="clients__item clients__item-zadel">
+                                <img class="clients__item-img" src="img/zadel.png" alt="">
+                            </div>
+                            <div class="clients__item clients__item-promoil">
+                                <img class="clients__item-img" src="img/promoil.png" alt="">
+                            </div>
+                        </div>
+                        <div class="clients__five">
+                            <div class="clients__item clients__item-samokat">
+                                <img class="clients__item-img" src="img/samokat.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                -->
+
+
+
+                </div>
+                <form class="clients__form" action="" method="post">
+                    <div class="clients__form-left">
+                        <h3><span class="blue-text">Хотите стать одним из них?</span></h3>
+                        <h3 class="clients__form-title">Оставьте заявку</h3>
+                        <p class="project__form-descrMob">и наш менеджер перезвонит вам через 15 минут</p>
+                        <input class="clients__form-input" type="text" name="name" placeholder="Ваше имя">
+                        <input class="clients__form-input" type="text" name="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="clients__form-right">
+                        <p class="clients__form-descr">и наш менеджер перезвонит вам через 15 минут</p>
+                        <input class="clients__form-btn" type="submit">
+                        <p class="clients__form-span">Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой
+                            конфиденциальности</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="any">
+            <img class="any-bg" src="img/any-bg.png" alt="bg">
+            <div class="container">
+                <div class="columns">
+                    <div class="column any__text">
+                        <h1 class="any__text-title">Делаем проекты <span class="blue-text">любой</span> сложности</h1>
+                        <p class="any__text-descr">Ключевые факторы эффективной работы и взаимодействия с нашими
+                            клиентами
+                        </p>
+                    </div>
+                    <div class="any__wrapper">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="any__items">
+                                    <button class="btn-reset accordion">
+                                        <div class="any__item">
+                                            <div class="any__item-content">
+                                                <div class="any__item-text">
+                                                    <h3 class="any__item-title">Создание сайтов</h3>
+                                                    <p class="any__item-descr">Имиджевые и информативные сайты для брендов и компаний с
+                                                        уникальным дизайном</p>
+                                                </div>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 17L17 7" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M7 7H17V17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="any__item-panel">
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Одностраничный сайт</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Интернет-магазин</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Корпоративный сайт</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="any__items">
+                                    <button class="btn-reset accordion">
+                                        <div class="any__item">
+                                            <div class="any__item-content">
+                                                <div class="any__item-text">
+                                                    <h3 class="any__item-title">Интернет-маркетинг</h3>
+                                                    <p class="any__item-descr">Контекстная, таргетированная реклама и SMM - делаем все, чтобы к вам приходили клиенты</p>
+                                                </div>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 17L17 7" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M7 7H17V17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="any__item-panel">
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Таргетированная реклама</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Контекстная реклама</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">SEO-продвижение</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="any__items">
+                                    <button class="btn-reset accordion">
+                                        <div class="any__item">
+                                            <div class="any__item-content">
+                                                <div class="any__item-text">
+                                                    <h3 class="any__item-title">Копирайтинг</h3>
+                                                    <p class="any__item-descr">Контекстная, таргетированная реклама и SMM - делаем все, чтобы к вам приходили клиенты</p>
+                                                </div>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 17L17 7" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M7 7H17V17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="any__item-panel">
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Ведение ВК, Instagram</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Написание статей</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Тексты для площадок и сайтов</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Продающие автоворонки</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="any__items">
+                                    <button class="btn-reset accordion">
+                                        <div class="any__item">
+                                            <div class="any__item-content">
+                                                <div class="any__item-text">
+                                                    <h3 class="any__item-title">Консалтинг</h3>
+                                                    <p class="any__item-descr">От небольших магазинов, до сложных систем с тысячами товаров</p>
+                                                </div>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 17L17 7" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M7 7H17V17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <div class="any__item-panel">
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Подключение оценки звонков/диалогов</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Оцифровка продаж в графике и статистике</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Внедрение CRM-системы</p>
+                                        </div>
+                                        <div class="any__item-panel-item">
+                                            <img class="any__item-panel-img" src="img/arrow-white.svg">
+                                            <p class="any__item-panel-text">Разработка скриптов продаж</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__up">
+                <img class="footer__up-logo" src="img/logo-footer.jpg" alt="Logo">
+                <div class="footer__up-text">
+                    <div class="footer__up-nomer">
+                        <p class="footer__up-nomer-u footer__up-u">Контактный номер: </p>
+                        <p class="footer__up-nomer-d footer__up-d">+7 (919) 448-17-23</p>
+                    </div>
+                    <div class="footer__up-adress">
+                        <p class="footer__up-adress-u footer__up-u">Адрес: </p>
+                        <p class="footer__up-adress-d footer__up-d">г. Пермь, ул. Монастырская, 12А</p>
+                    </div>
+                </div>
+                <button class="btn footer-btn btn-reset">Оставить заявку<img class="btn-arrow" src="img/btn-arrow.svg"
+                        alt="arrow"></button>
+            </div>
+            <div class="footer__down">
+                <img class="footer__up-logoMob" src="img/logo-footer.jpg" alt="Logo">
+                <p class="footer__down-data">ИП Сиринов Никита Степанович<br>ИНН: 590204795275 <br>ОГРНИП:
+                    320595800058422</p>
+            </div>
+        </div>
+    </footer>
+    <div id="popup-consul" class="popup__consul">
+        <a href="#" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <h1 class="popup__title">Бесплатная консультация</h1>
+                    <p class="popup__descr">Отправьте заявку и наш менеджер свяжется с вами в ближайшее время</p>
+                    <input class="popup__input" type="text" name="name" placeholder="Имя">
+                    <input class="popup__input" type="text" name="tel" placeholder="Телефон">
+                    <button class="btn popup__btn btn-reset">Отправить<img class="btn-arrow" src="img/btn-arrow.svg" alt="Arrow"> </button>
+                    <p class="popup__descr-btn">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных.</p>
+                </div>
+            </div>
+    </div>
+    <div id="popup-zayvka" class="popup__consul">
+        <a href="#" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <h1 class="popup__title">Отправить заявку <span class="blue-text">сейчас</span></h1>
+                    <p class="popup__descr">Отправьте заявку и наш менеджер свяжется с вами в ближайшее время</p>
+                    <input class="popup__input" type="text" name="name" placeholder="Имя">
+                    <input class="popup__input" type="text" name="tel" placeholder="Телефон">
+                    <button class="btn popup__btn btn-reset">Отправить<img class="btn-arrow" src="img/btn-arrow.svg" alt="Arrow"> </button>
+                    <p class="popup__descr-btn">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных.</p>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery.marquee@1.6.0,npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/accordion.js"></script>
+</body>
+</html>
