@@ -1,7 +1,5 @@
-/*$('.tarif__item-slider').marquee({
-    duration: 5000,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true
-  });*/
-
+$(document).ready(function() {
+  $('.menu__btn').click(function(event) {
+    $('body').toggleClass('lock');
+  });
+});

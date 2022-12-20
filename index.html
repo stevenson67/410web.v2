@@ -34,6 +34,20 @@
                   <span></span>
                 </label>
                 <ul class="menu__box">
+                    <div class="menu__header">
+                        <a class="header__logo" href="#">
+                            <img class="header__logo-img" src="img/logo.svg" alt="Logo">
+                        </a>
+                        <div class="header__content">
+                            <div class="header__content-contact">
+                                <p class="header__content-mail">410webmanager@gmail.com</p>
+                                <p class="header__content-tel">+7 (919) 448-17-23</p>
+                            </div>
+                            <div class="header__content-popup">
+                                <a class="header__content-popup-link" href="#popup-consul">Оставить заявку<img class="popup-arrow" src="img/popup-arrow.svg" alt="arrow"></a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="menu__left">
                         <div class="menu__items">
                             <button class="btn-reset accordionMob">
@@ -403,23 +417,24 @@
         </section>
         <section class="project">
             <div class="container">
-                <form class="project__form" action="" method="post">
+                <form action="sendmail.php" id="form" class="project__form" method="post">
+                    <img class="project__form-img" src="img/form.png" alt="bg">
                     <div class="project__form-left">
                         <h3 class="project__form-title">Оставьте заявку</h3>
                         <p class="project__form-descrMob">и наш менеджер перезвонит вам через 15 минут</p>
                         <input class="project__form-input" type="text" name="name" placeholder="Ваше имя">
-                        <input class="project__form-input" type="text" name="tel" placeholder="Ваш телефон">
+                        <input class="project__form-input" type="text" name="phone" placeholder="Ваш телефон">
                     </div>
                     <div class="project__form-right">
                         <p class="project__form-descr">и наш менеджер перезвонит вам через 15 минут</p>
-                        <input class="project__form-btn" type="submit">
+                        <button class="project__form-btn" type="submit">Отправить</button>
                         <p class="project__form-span">Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой
                             конфиденциальности</p>
                     </div>
                 </form>
                 <h1 class="project-title">Наши проекты</h1>
                 <div class="project__items">
-                    <div class="project__item">
+                    <a class="project__item" href="https://insd.online/" target="_blank">
                         <div class="project__item-up">
                             <p class="project__item-num">1/3</p>
                             <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
@@ -440,14 +455,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="project__item">
+                    </a>
+                    <a class="project__item" href="https://xn--c1adabpmcqgyrh8joa.xn--p1ai/" target="_blank">
                         <div class="project__item-up">
                             <p class="project__item-num">2/3</p>
                             <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
                         </div>
                         <img class="project__item-tel" src="img/project-tel2.png">
                         <img class="project__item-nout" src="img/project-nout2.png">
+                        <img class="project__item-zvezda-left" src="img/project-zvezda.png">
+                        <img class="project__item-zvezda-right" src="img/project-zvezda2.png">
                         <div class="project__item-down">
                             <h2 class="project__item-title">Лендинг для гостиницы Энергетик</h2>
                             <div class="project__item-inside">
@@ -460,14 +477,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="project__item">
+                    </a>
+                    <a class="project__item" href="#" target="_blank">
                         <div class="project__item-up">
                             <p class="project__item-num">3/3</p>
                             <img class="project__item-svg" src="img/btn-arrow.svg" alt="arrow">
                         </div>
                         <img class="project__item-tel" src="img/project-tel3.png">
                         <img class="project__item-nout" src="img/project-nout3.png">
+                        <img class="project__item-zvezda-left" src="img/project-zvezda.png">
+                        <img class="project__item-zvezda-right" src="img/project-zvezda2.png">
                         <div class="project__item-down">
                             <h2 class="project__item-title">Лендинг для крипто-проекта OASIS</h2>
                             <div class="project__item-inside">
@@ -480,7 +499,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -779,10 +798,10 @@
                         </a>
                     </div>
                     <div class="manager__button-right">
-                        <button class="btn manager__button-egor btn-reset">
+                        <div class="btn manager__button-egor btn-reset">
                             <h2 class="manager__button-egor-title">Егор Ильинский</h2>
                             <p class="manager__button-egor-descr">Персональный менеджер</p>
-                        </button>
+                        </div>
                     </div>
                 </div>
                 <img class="egor" src="img/Egor.png">
@@ -866,14 +885,13 @@
             <div class="container">
                 <h1 class="audit-title">Бесплатный аудит вашего сайта</h1>
                 <img class="audit-bgMob" src="img/audit-bg.png" alt="bg">
-                <form class="audit__form" action="" method="post">
+                <form action="sendmail.php" id="form" class="audit__form" method="post">
                     <div class="audit__form-left">
                         <div class="audit__form-input">
                             <input class="input audit__form-input-name" type="text" name="name" placeholder="Имя">
-                            <input class="input audit__form-input-tel" type="text" name="tel" placeholder="Телефон">
+                            <input class="input audit__form-input-tel" type="text" name="phone" placeholder="Телефон">
                             <input class="input audit__form-input-mail" type="text" name="mail" placeholder="Электронная почта">
                             <input class="input audit__form-input-site" type="text" name="site" placeholder="Сайт компании">
-
                         </div>
                         <button class="btn audit__form-btn">Получить бесплатный аудит
                             <img class="btn-arrow" src="img/btn-arrow.svg" alt="arrow">
@@ -955,12 +973,12 @@
                     <div class="clients__two clients__group">
                         <div class="column-h50">
                             <div class="clients__item clients__item-vektor">
-                                <img class="clients__item-img" src="img/vektor.png" alt="">
+                                <img class="clients__item-img" src="img/vektor.svg" alt="">
                             </div>
                         </div>
                         <div class="column-h50">
                             <div class="clients__item clients__item-forpost">
-                                <img class="clients__item-img" src="img/forpost.png" alt="">
+                                <img class="clients__item-img" src="img/forpost.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -981,7 +999,7 @@
                                 </div>
                                 <div class="column-h100">
                                     <div class="clients__item clients__item-promoil">
-                                        <img class="clients__item-img" src="img/promoil.png" alt="">
+                                        <img class="clients__item-img" src="img/promoil.svg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -994,40 +1012,18 @@
                             </div>
 
                     </div>
-
-
-                    <!--
-                    <div class="clients__free-five clients__group">
-                        <div class="clients__free">
-                            <div class="clients__item clients__item-zadel">
-                                <img class="clients__item-img" src="img/zadel.png" alt="">
-                            </div>
-                            <div class="clients__item clients__item-promoil">
-                                <img class="clients__item-img" src="img/promoil.png" alt="">
-                            </div>
-                        </div>
-                        <div class="clients__five">
-                            <div class="clients__item clients__item-samokat">
-                                <img class="clients__item-img" src="img/samokat.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                -->
-
-
-
                 </div>
-                <form class="clients__form" action="" method="post">
+                <form action="sendmail.php" id="form" class="clients__form" method="post">
                     <div class="clients__form-left">
                         <h3><span class="blue-text">Хотите стать одним из них?</span></h3>
                         <h3 class="clients__form-title">Оставьте заявку</h3>
                         <p class="project__form-descrMob">и наш менеджер перезвонит вам через 15 минут</p>
                         <input class="clients__form-input" type="text" name="name" placeholder="Ваше имя">
-                        <input class="clients__form-input" type="text" name="tel" placeholder="Ваш телефон">
+                        <input class="clients__form-input" type="text" name="phone" placeholder="Ваш телефон">
                     </div>
                     <div class="clients__form-right">
                         <p class="clients__form-descr">и наш менеджер перезвонит вам через 15 минут</p>
-                        <input class="clients__form-btn" type="submit">
+                        <button class="clients__form-btn" type="submit">Отправить</button>
                         <p class="clients__form-span">Нажимая кнопку ‘Отправить’ вы соглашаетесь с политикой
                             конфиденциальности</p>
                     </div>
@@ -1215,8 +1211,11 @@
                         <p class="footer__up-adress-d footer__up-d">г. Пермь, ул. Монастырская, 12А</p>
                     </div>
                 </div>
-                <button class="btn footer-btn btn-reset">Оставить заявку<img class="btn-arrow" src="img/btn-arrow.svg"
-                        alt="arrow"></button>
+                    <a class="footer-btn" href="#popup-zayvka">
+                        <button class="btn footer-btn btn-reset">Оставить заявку<img class="btn-arrow" src="img/btn-arrow.svg"
+                        alt="arrow">
+                        </button>
+                    </a>
             </div>
             <div class="footer__down">
                 <img class="footer__up-logoMob" src="img/logo-footer.jpg" alt="Logo">
@@ -1226,29 +1225,31 @@
         </div>
     </footer>
     <div id="popup-consul" class="popup__consul">
-        <a href="#" class="popup__area"></a>
             <div class="popup__body">
-                <div class="popup__content">
+                <a href="#" class="popup__area"></a>
+                <form action="sendmail.php" id="form" class="popup__content" method="post">
                     <h1 class="popup__title">Бесплатная консультация</h1>
                     <p class="popup__descr">Отправьте заявку и наш менеджер свяжется с вами в ближайшее время</p>
-                    <input class="popup__input" type="text" name="name" placeholder="Имя">
-                    <input class="popup__input" type="text" name="tel" placeholder="Телефон">
-                    <button class="btn popup__btn btn-reset">Отправить<img class="btn-arrow" src="img/btn-arrow.svg" alt="Arrow"> </button>
+                    <input class="popup__input _req" type="text" name="name" placeholder="Имя">
+                    <input class="popup__input _req" type="text" name="phone" placeholder="Телефон">
+                    <input type="submit" class="btn popup__btn btn-reset" value="Отправить">
+                    <input type="hidden" name="act" value="order">
                     <p class="popup__descr-btn">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных.</p>
-                </div>
+                </form>
             </div>
     </div>
     <div id="popup-zayvka" class="popup__consul">
         <a href="#" class="popup__area"></a>
             <div class="popup__body">
-                <div class="popup__content">
+                <form action="sendmail.php" id="form" class="popup__content" method="post">
                     <h1 class="popup__title">Отправить заявку <span class="blue-text">сейчас</span></h1>
                     <p class="popup__descr">Отправьте заявку и наш менеджер свяжется с вами в ближайшее время</p>
-                    <input class="popup__input" type="text" name="name" placeholder="Имя">
-                    <input class="popup__input" type="text" name="tel" placeholder="Телефон">
-                    <button class="btn popup__btn btn-reset">Отправить<img class="btn-arrow" src="img/btn-arrow.svg" alt="Arrow"> </button>
+                    <input class="popup__input _req" type="text" name="name" placeholder="Имя">
+                    <input class="popup__input _req" type="text" name="phone" placeholder="Телефон">
+                    <input type="submit" class="btn popup__btn btn-reset" value="Отправить">
+                    <input type="hidden" name="act" value="order">
                     <p class="popup__descr-btn">Нажимая на кнопку, вы принимаете Положение и Согласие на обработку персональных данных.</p>
-                </div>
+                </form>
             </div>
     </div>
 
@@ -1256,5 +1257,6 @@
     <script src="https://cdn.jsdelivr.net/combine/npm/jquery.marquee@1.6.0,npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
     <script src="js/marquee.js"></script>
     <script src="js/accordion.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
